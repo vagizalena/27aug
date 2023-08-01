@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-       <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
             href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
             rel="stylesheet">
@@ -16,10 +16,16 @@
     box-sizing: border-box;
 }
 
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    { 
+       
+
 body {
     background-color: #FEFEFE;
-    width: 428px;
-    height: 926px;
+    width: 390px;
+    height: 100%;
 }
 
 p {
@@ -34,11 +40,14 @@ a {
 }
 
 .middle-uzor {
-    width: 1250px;
     position: absolute;
-    padding-top: 500px;
+    padding-top: 350px;
     text-align: center;
     z-index: 10;
+}
+
+.middle-uzor img{
+    width: 300px;
 }
 
 .left-uzor {
@@ -68,16 +77,10 @@ a {
 }
 
 .title {
-    font-size: 34px;
+    font-size: 28px;
     color: #e7d8b6;
     font-family: 'Bad Script';
     font-weight: bold;
-}
-
-.main {
-    width: 1250px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .main .event-name {
@@ -86,11 +89,10 @@ a {
 }
 
 .main .event-banner {
-    height: 800px;
-    width: 500px;
+    height: 400px;
+    width: 300px;
     text-align: center;
     position: relative;
-    margin: 0 auto;
     padding-top: 30px;
 }
 
@@ -103,7 +105,7 @@ a {
 }
 
 .main .event-banner .behind img {
-    width: 500px;
+    width: 300px;
     background-size: contain;
     border-radius: 50%;
     background-position: center;
@@ -113,7 +115,7 @@ a {
     width: 100%;
     text-align: center;
     margin: auto;
-    padding: 300px 20px;
+    padding: 180px 20px;
 }
 
 .main .event-banner .ahead p {
@@ -121,7 +123,7 @@ a {
 }
 
 .main .event-desc {
-    padding-top: 30px;
+    padding-top: 100px;
     position: relative;
     margin: 0 auto;
 }
@@ -135,7 +137,7 @@ a {
 }
 
 .main .event-location img {
-    width: 600px;
+    width: 300px;
     border-bottom-left-radius: 50% 25%;
     border-bottom-right-radius: 50% 25%;
     border-top-left-radius: 50% 25%;
@@ -204,7 +206,7 @@ li span {
 
 
 .main .end img{
-    width: 450px;
+    width: 350px;
     background-position: center;
     background-size: contain;
     border-bottom-left-radius: 25% 25%;
@@ -212,7 +214,7 @@ li span {
     border-top-left-radius: 25% 25%;
     border-top-right-radius: 25% 25%;
 }
-    
+}
         </style>
     </head>
     <body>
@@ -249,7 +251,7 @@ li span {
                 <br>
                 <p>27 августа 2023</p>
                 <br>
-                <p>в 17:30</p>
+                <p>в 17:00</p>
             </div>
             <div class="right-uzor">
                 <img
@@ -261,7 +263,7 @@ li span {
                 <br>
                 <p>Ресторан “Royal Rose”</p>
                 <br>
-                <p>ул. Исмаилата 3</p>
+                <p>ул. Исмаилата 39</p>
                 <br>
                 <img
                     src="https://lh3.googleusercontent.com/p/AF1QipOHP_uzMtg9j5KuFixkbq49CQwUeY2Xdz69RvdE=s680-w680-h510"
@@ -314,7 +316,7 @@ li span {
                     src="https://thumb.tildacdn.com/tild3036-6636-4935-b063-643062643135/-/resize/300x/-/format/webp/_2-min.png">
             </div>
             <div class="end">
-                <p class="title">До скорой встречи</p>
+                <p class="title">Ждем вас!</p>
                 <br>
                 <img
                     src="https://i.pinimg.com/564x/26/ed/d1/26edd113cbe74e1c71d9f3a22a852ab4.jpg"
